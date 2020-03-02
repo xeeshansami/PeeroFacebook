@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:shape="rectangle"
+        app:cardUseCompatPadding="true"
+        android:padding="1sp"
+        card_view:cardCornerRadius="1dp"
+        card_view:cardElevation="2dp"
+        android:background="#17A2D9"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/linear_past"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/linearImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="?android:attr/listPreferredItemHeight"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:id="@+id/past_icon"
+                        android:layout_width="100dp"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/last_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="start|center"
+                            android:ellipsize="end"
+                            android:fontFamily="sans-serif-thin"
+                            android:gravity="start"
+                            android:maxLines="2"
+                            android:paddingLeft="10dp"
+                            android:singleLine="false"
+                            android:text="match_parent match_parentmatch_parent match_parentmatch_parent match_p"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="#000"
+                            android:textSize="14sp"
+                            android:textStyle="normal|bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:layout_gravity="bottom"
+                            android:gravity="bottom"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:id="@+id/last_text_time"
+                                android:layout_width="0dp"
+                                android:layout_height="0sp"
+                                android:layout_weight="1"
+                                android:fontFamily="sans-serif-thin"
+                                android:gravity="bottom"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="0dp"
+                                android:text="20:10"
+                                android:textStyle="bold|normal"
+                                android:textColor="@color/black"
+                                android:textSize="13sp" />
+
+                            <TextView
+                                android:id="@+id/sizeOfSons"
+                                android:layout_width="0sp"
+                                android:textColor="@color/black"
+                                android:layout_height="0sp"
+                                android:gravity="bottom"
+                                android:text="Size:15 MB" />
+
+                            <ImageView
+                                android:id="@+id/headPhoneImage"
+                                android:layout_width="0sp"
+                                android:layout_height="0sp"
+                                android:src="@drawable/video_icon"
+                                android:visibility="visible" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

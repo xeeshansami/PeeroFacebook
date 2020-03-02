@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="File Manager">
+        <Preference
+            android:key="file"
+            android:summary="/storage/emulated/0/FacebookVideos/"
+            android:title="Downloader File Location">
+        </Preference>
+    </PreferenceCategory>
+    <!--<PreferenceCategory android:title="Reset">-->
+        <!--<Preference-->
+            <!--android:key="@string/reset_key"-->
+            <!--android:summary="Reset all the settings"-->
+            <!--android:title="Reset">-->
+        <!--</Preference>-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="INFO">
+        <Preference
+            android:key="privacy"
+            android:summary="Free Social Media Downloader"
+            android:title="Privacy Policy">
+        </Preference>
+        <Preference
+            android:key="language_key"
+            android:summary="1.0"
+            android:title="Version">
+        </Preference>
+    </PreferenceCategory>
+
+
+
+
+
+    <!--<ListPreference-->
+    <!--android:summary="Like Google"-->
+    <!--android:title="Default page"-->
+    <!--android:entries="@array/home_page_array"-->
+    <!--android:entryValues="@array/home_page_values"-->
+    <!--&gt;-->
+    <!--</ListPreference>-->
+
+
+
+
+</PreferenceScreen>

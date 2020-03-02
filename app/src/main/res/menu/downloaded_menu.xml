@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:panelFullBackground="@color/white">
+    <item
+
+        android:id="@+id/ratings"
+        android:icon="@drawable/ic_star_rate"
+        android:iconTint="@color/white"
+        android:title="Main"
+        android:visible="false"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/download_menu"
+        android:icon="@drawable/ic_refresh"
+        android:title="Main"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_settings"
+        android:iconTint="@color/white"
+        android:title="Main"
+        android:visible="true"
+        app:showAsAction="always"></item>
+
+</menu>

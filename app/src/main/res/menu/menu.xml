@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:panelFullBackground="#000"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!--<item android:title="Main"-->
+    <!--android:id="@+id/menus_inside"-->
+    <!--android:orderInCategory="1"-->
+    <!--android:icon="@drawable/ic_more_vert_white_24dp"-->
+    <!--app:showAsAction="always"-->
+    <!--tools:ignore="HardcodedText" />-->
+
+    <item android:title="Main"
+        android:visible="true"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/download"
+                android:iconTint="@color/black"
+                android:icon="@drawable/ic_video_library_black_24dp"
+                android:title="Downloaded Videos"
+                app:showAsAction="ifRoom"
+                tools:ignore="HardcodedText" />
+
+            <item
+                android:id="@+id/setting"
+                android:iconTint="@color/black"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:orderInCategory="1"
+                android:title="Setting"
+                app:showAsAction="always"
+                />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label ordering must match values -->
+    <array name="home_page_array">
+        <item>Google</item>
+        <item>Bookmark</item>
+    </array>
+
+    <array name="home_page_values">
+        <item>Google</item>
+        <item>Bookmark</item>
+    </array>
+
+
+    <array name="agaent_page_array">
+        <item>Default</item>
+        <item>Desktop</item>
+        <item>Mobile</item>
+        <item>Custom</item>
+    </array>
+
+    <array name="agent_page_values">
+        <item>Default</item>
+        <item>Desktop</item>
+        <item>Mobile</item>
+        <item>Custom</item>
+    </array>
+
+
+    <array name="activedown_page_array">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </array>
+
+    <array name="activedown_page_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+    </array>
+
+    <array name="connections_page_array">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+    </array>
+
+    <array name="connections_page_values">
+        <item>"0"</item>
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+        <item>"9"</item>
+        <item>"10"</item>
+    </array>
+    <array name="interface_page_array">
+        <item>Wi-Fi Only</item>
+        <item>Wi-Fi and Mobile</item>
+    </array>
+
+    <array name="interface_page_values">
+        <item>Wi-Fi Only</item>
+        <item>Wi-Fi and Mobile</item>
+    </array>
+
+
+    <array name="battery_page_array">
+        <item>Disable battery saving</item>
+        <item>"10%"</item>
+        <item>"20%"</item>
+        <item>"30%"</item>
+        <item>"40%"</item>
+
+    </array>
+
+    <array name="battery_page_values">
+        <item>Disable battery saving</item>
+        <item>"10%"</item>
+        <item>"20%"</item>
+        <item>"30%"</item>
+        <item>"40%"</item>
+    </array>
+
+    <array name="file_page_array">
+        <item>Name</item>
+        <item>Size</item>
+    </array>
+
+    <array name="file_page_values">
+        <item>Name</item>
+        <item>Size</item>
+    </array>
+
+    <array name="file_s_page_array">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </array>
+
+    <array name="file_s_page_values">
+        <item>Ascending</item>
+        <item>Descending</item>
+    </array>
+
+
+
+</resources>
